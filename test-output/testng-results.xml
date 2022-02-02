@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SMOKE TESTING Suite" duration-ms="53254" started-at="2022-02-02T02:08:29Z" finished-at="2022-02-02T02:09:22Z">
+    <groups>
+      <group name="ST">
+        <method signature="ContactTest.createContact()[pri:0, instance:com.crm.comcast.contactTest.ContactTest@53b32d7]" name="createContact" class="com.crm.comcast.contactTest.ContactTest"/>
+        <method signature="OrgTest.CreateOrgTest()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="CreateOrgTest" class="com.crm.comcast.orgTest.OrgTest"/>
+      </group> <!-- ST -->
+    </groups>
+    <test name="Test" duration-ms="53254" started-at="2022-02-02T02:08:29Z" finished-at="2022-02-02T02:09:22Z">
+      <class name="com.crm.comcast.contactTest.ContactTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.comcast.contactTest.ContactTest@53b32d7]" name="configBC" is-config="true" duration-ms="8384" started-at="2022-02-02T02:08:56Z" finished-at="2022-02-02T02:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.comcast.contactTest.ContactTest@53b32d7]" name="configBM" is-config="true" duration-ms="3419" started-at="2022-02-02T02:09:05Z" finished-at="2022-02-02T02:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:com.crm.comcast.contactTest.ContactTest@53b32d7]" name="createContact" duration-ms="10943" started-at="2022-02-02T02:09:08Z" finished-at="2022-02-02T02:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.comcast.contactTest.ContactTest@53b32d7]" name="configAM" is-config="true" duration-ms="1653" started-at="2022-02-02T02:09:19Z" finished-at="2022-02-02T02:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.crm.comcast.contactTest.ContactTest@53b32d7]" name="cofigAC" is-config="true" duration-ms="1525" started-at="2022-02-02T02:09:21Z" finished-at="2022-02-02T02:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofigAC -->
+      </class> <!-- com.crm.comcast.contactTest.ContactTest -->
+      <class name="com.crm.comcast.orgTest.OrgTest">
+        <test-method status="PASS" signature="cinfigBS()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="cinfigBS" is-config="true" duration-ms="12" started-at="2022-02-02T02:08:29Z" finished-at="2022-02-02T02:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cinfigBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="configBC" is-config="true" duration-ms="8080" started-at="2022-02-02T02:08:29Z" finished-at="2022-02-02T02:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="configBM" is-config="true" duration-ms="4021" started-at="2022-02-02T02:08:37Z" finished-at="2022-02-02T02:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CreateOrgTest()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="CreateOrgTest" duration-ms="12141" started-at="2022-02-02T02:08:41Z" finished-at="2022-02-02T02:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="configAM" is-config="true" duration-ms="1476" started-at="2022-02-02T02:08:53Z" finished-at="2022-02-02T02:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="cofigAC" is-config="true" duration-ms="1583" started-at="2022-02-02T02:08:55Z" finished-at="2022-02-02T02:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofigAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.crm.comcast.orgTest.OrgTest@343f4d3d]" name="configAS" is-config="true" duration-ms="0" started-at="2022-02-02T02:09:22Z" finished-at="2022-02-02T02:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.comcast.orgTest.OrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- SMOKE TESTING Suite -->
+</testng-results>
